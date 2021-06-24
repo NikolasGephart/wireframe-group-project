@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Document</title>
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+
+  <header class="container-fluid bg-primary">
+    <div class="row d-flex align-items-center">
+      <div class="col col-lg-2">
+        <div class="here bg-secondary"></div>
+        <!--Icon will go here-->
+      </div>
+      <div class="col col-lg-6 text-center">
+        <h1>Bootstrap Gardens</h1>
+      </div>
+      <div class="col col-lg-4">
+        <div class="row d-flex">
+          <!--will be collapsed in mobile-->
+          <div class="col here bg-secondary"></div>
+          <div class="col here bg-secondary"></div>
+          <div class="col here bg-secondary"></div>
+          <div class="col here bg-secondary"></div>
+          <div class="col here bg-secondary"></div>
+          <div class="col here bg-secondary"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col p-0">
+        <nav class="d-flex navbar navbar-expand navbar-light bg-light justify-content-center">
+          <div class="nav navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Home</a>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
